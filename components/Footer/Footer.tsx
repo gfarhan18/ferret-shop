@@ -21,7 +21,7 @@ const Footer = () => {
             {/* Social Icon Placeholder */}
           </a>
         </div>
-        <div className="text-center md:text-left md:flex-grow">
+        <div className="text-center md:flex-grow">
           <p className="text-neutral-700 dark:text-neutral-200 text-sm">
             © 2023 Copyright:
             <a href="https://google.com" className="text-neutral-800 dark:text-neutral-400">
