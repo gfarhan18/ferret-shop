@@ -22,11 +22,6 @@ const Home = () => {
         />
         </section>
 
-        
-      <div className="justify-center w-full block my-4">
-        <h2 className="text-3xl">Our Products</h2>
-      </div>
-
       <Products />
     </div>
   );

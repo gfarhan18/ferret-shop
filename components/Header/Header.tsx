@@ -35,28 +35,9 @@ const Header = () => {
           ))}
         </ul>
       </nav>
-      <nav>
-        <ul className="flex items-center mr-4 lg:mr-6 xl:mr-8">
-          <SocialIcon href="https://twitter.com" icon={<FaTwitter />} />
-          <SocialIcon href="https://facebook.com" icon={<FaFacebookF />} />
-          <SocialIcon href="https://linkedin.com" icon={<FaLinkedinIn />} />
-          <SocialIcon href="https://instagram.com" icon={<FaInstagram />} />
-        </ul>
-      </nav>
     </header>
   );
 };
-interface SocialIconProps {
-    href: string;
-    icon: ReactNode;  // ReactNode covers any valid React child (string, number, JSX, null, etc.)
-}
 
-const SocialIcon: React.FC<SocialIconProps> = ({ href, icon }) => (
-  <li className="p-1">
-    <Link href={href} className="social-icon">
-        {icon}
-    </Link>
-  </li>
-);
 
 export default Header;

@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
+import Button from '../shared/Button';
 
 interface OurCommunityProps {
     title: string;
@@ -17,9 +18,9 @@ const OurCommunity: React.FC<OurCommunityProps> = ({ title, description, buttonT
             <div className="flex-1">
                 <h2 className="text-3xl font-bold text-gray-800 mb-4">{title}</h2>
                 <p className="text-gray-600 mb-6">{description}</p>
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                <Button variant='secondary' href='/community'>
                     {buttonText}
-                </button>
+                </Button>
             </div>
         </div>
     );
