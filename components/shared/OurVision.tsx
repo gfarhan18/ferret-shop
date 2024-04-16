@@ -49,7 +49,7 @@ const OurVision = () => {
                 <div className="mt-5">
                     <h3 className="text-lg font-medium text-gray-900">Vision</h3>
                     <p className="mt-2 text-base text-gray-500">We envision a world where technology is used to solve the
-                        most pressing issues facing humanity and improve people's lives.</p>
+                        most pressing issues facing humanity and improve peoples lives.</p>
                 </div>
             </div>
         </div>

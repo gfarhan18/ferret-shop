@@ -11,10 +11,10 @@ const contact = () => {
               Contact Us
             </p>
             <h2 className="font-heading mb-4 font-bold tracking-tight text-white text-3xl sm:text-5xl">
-              Let's Connect
+              Lets Connect
             </h2>
             <p className="mx-auto mt-4 max-w-3xl text-xl text-black">
-              Whether you're interested in working with us or just want to ask a question, we're here to help!
+              Whether you are interested in working with us or just want to ask a question, we are here to help!
             </p>
           </div>
         </div>
