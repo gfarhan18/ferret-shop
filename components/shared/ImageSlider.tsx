@@ -19,7 +19,7 @@ const ImageSlider: FunctionComponent<ImageSliderProps> = ({ images }) => {
   }, [slideCount]);
 
   return (
-    <div className="w-full h-screen flex items-center justify-center">
+    <div className="w-full h-screen flex items-center justify-center overflow-hidden">
       <div className="max-w-full">
         <div className="overflow-hidden relative">
           <div
@@ -27,7 +27,7 @@ const ImageSlider: FunctionComponent<ImageSliderProps> = ({ images }) => {
             style={{ transform: `translateX(-${(activeSlide - 1) * 100.5}%)` }}
           >
             {images.map((image, index) => (
-              <div key={index} className="inline-block w-full max-h-[360px]">
+              <div key={index} className="inline-block w-full max-h-[550px]">
                 <Image
                 width="2000" 
                 height="2000" 

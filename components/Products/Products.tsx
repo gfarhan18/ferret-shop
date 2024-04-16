@@ -56,7 +56,7 @@ const Products = () => {
 
   return (
     <section className="bg-yellow-500 py-10">
-        <h2 className="text-3xl text-white">Our Products</h2>
+        <h2 className="text-3xl text-white text-center">Our Products</h2>
       <div className="container w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5 ">
       {products.map(product => <ProductCard key={product.id} product={product} />)}
       </div>

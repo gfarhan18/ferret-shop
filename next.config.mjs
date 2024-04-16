@@ -17,6 +17,12 @@ const nextConfig = {
             hostname:'wallpapers.com',
             port: '',
           },
+          {
+            protocol: 'https',
+            hostname:'images.pexels.com',
+            port: '',
+          },
+          
         ],
       },
 };
