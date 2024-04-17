@@ -4,7 +4,7 @@ import Button from '../shared/Button';
 
 const HeroSection: React.FC = () => {
   return (
-    <div className="bg-yellow-500 text-white py-10 px-5 md:px-10">
+    <div className=" text-black py-10 px-5 md:px-10">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
         <div className="flex-1 mb-8 md:mb-0">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3">Welcome to Our Website</h1>

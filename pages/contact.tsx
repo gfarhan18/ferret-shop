@@ -3,14 +3,14 @@ import React from 'react'
 
 const contact = () => {
   return (
-    <section className="bg-yellow-500 " id="contact">
+    <section className=" " id="contact">
     <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
     <div className="mb-4">
           <div className="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
             <p className="text-base font-semibold uppercase tracking-wide text-black">
               Contact Us
             </p>
-            <h2 className="font-heading mb-4 font-bold tracking-tight text-white text-3xl sm:text-5xl">
+            <h2 className="font-heading mb-4 font-bold tracking-tight text-chinese-violet text-3xl sm:text-5xl">
               Lets Connect
             </h2>
             <p className="mx-auto mt-4 max-w-3xl text-xl text-black">
@@ -37,7 +37,7 @@ const contact = () => {
                                 </svg>
                             </div>
                             <div className="ml-4 mb-4">
-                                <h3 className="mb-2 text-lg font-medium leading-6 text-white">Our Address
+                                <h3 className="mb-2 text-lg font-medium leading-6 text-chinese-violet">Our Address
                                 </h3>
                                 <p className=" text-black">1230 Maecenas Street Donec Road</p>
                                 <p className=" text-black">New York, EEUU</p>
@@ -56,7 +56,7 @@ const contact = () => {
                                 </svg>
                             </div>
                             <div className="ml-4 mb-4">
-                                <h3 className="mb-2 text-lg font-medium leading-6  text-white">Contact
+                                <h3 className="mb-2 text-lg font-medium leading-6  text-chinese-violet">Contact
                                 </h3>
                                 <p className=" text-black">Mobile: +1 (123) 456-7890</p>
                                 <p className=" text-black">Mail: tailnext@gmail.com</p>
@@ -72,7 +72,7 @@ const contact = () => {
                                 </svg>
                             </div>
                             <div className="ml-4 mb-4">
-                                <h3 className="mb-2 text-lg font-medium leading-6 text-white">Working
+                                <h3 className="mb-2 text-lg font-medium leading-6 text-chinese-violet">Working
                                     hours</h3>
                                 <p className=" text-black">Monday - Friday: 08:00 - 17:00</p>
                                 <p className=" text-black">Saturday &amp; Sunday: 08:00 - 12:00</p>
@@ -81,7 +81,7 @@ const contact = () => {
                     </ul>
                 </div>
                 <div className="card h-fit max-w-6xl p-5 md:p-12" id="form">
-                    <h2 className="mb-4 text-2xl font-bold text-white">Ready to Get Started?</h2>
+                    <h2 className="mb-4 text-2xl font-bold text-chinese-violet">Ready to Get Started?</h2>
                     <form id="contactForm">
                         <div className="mb-6">
                             <div className="mx-0 mb-1 sm:mb-4">
@@ -100,7 +100,7 @@ const contact = () => {
                             </div>
                         </div>
                         <div className="text-center">
-                            <Button variant='secondary' className="w-full  text-white px-6 py-3 font-xl rounded-md sm:mb-0">Send Message</Button>
+                            <Button variant='secondary' className="w-full  text-chinese-violet px-6 py-3 font-xl rounded-md sm:mb-0">Send Message</Button>
                         </div>
                     </form>
                 </div>

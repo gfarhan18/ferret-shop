@@ -5,23 +5,26 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;  /* Black text color */
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb:Yellow;  /* Bright Yellow background */
+  --background-end-rgb:Yellow;  /* Consistent Yellow across the gradient */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 0, 0, 0;  /* Black text color */
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: 255, 255, 255;  /* White text color for dark mode */
+    --background-start-rgb:Yellow;
+    --background-end-rgb:Yellow;
   }
 }
+
+
 
 body {
   color: rgb(var(--foreground-rgb));
   font-family: "Nunito", sans-serif;
-
+  background: linear-gradient(to bottom, yellow, yellow);
 }
+
 
 @layer utilities {
   .text-balance {
@@ -51,7 +54,7 @@ body {
 /* components/Header/styles.css */
 
 .header {
-  background-color: white;
+  background-color: yellow;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   height: 96px; /* 24 * 4 */
   display: none;

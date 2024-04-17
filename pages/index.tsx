@@ -13,7 +13,7 @@ const Home = () => {
             buttonText="Become a Member"
             imageUrl="/our-community.jpeg" // Make sure you have an image at public/community-image.jpg
           />
-      <section className="bg-gray-100">
+      <section className="">
       <OurMission
         title="Our Mission"
         description="Our mission is to empower every person and every organization on the planet to achieve more."
