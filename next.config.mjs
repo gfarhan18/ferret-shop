@@ -22,6 +22,11 @@ const nextConfig = {
             hostname:'images.pexels.com',
             port: '',
           },
+          {
+            protocol: 'https',
+            hostname:'cdn.shopify.com',
+            port: '',
+          },
           
         ],
       },
