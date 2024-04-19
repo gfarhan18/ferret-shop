@@ -13,9 +13,6 @@ const HeroSection: React.FC = () => {
               Learn More
           </Button>
         </div>
-        <div className="flex-1">
-          <Image src="/clock.jpeg" alt="Hero Image" width={500} height={300} objectFit="cover" />
-        </div>
       </div>
     </div>
   );

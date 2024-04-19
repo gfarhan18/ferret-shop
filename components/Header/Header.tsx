@@ -20,8 +20,8 @@ const Header = () => {
 
   return (
     <header className="header justify-between items-center overflow-hidden text-black">
-      <Link href="/" className="border flex-shrink-0 flex items-center justify-center ">
-          <Image src="/fslogo.png" alt="Logo" width={100} height={100} />
+      <Link href="/" className="flex-shrink-0 flex items-center justify-center ">
+          <Image src="/fslogo.png" alt="Logo" width={150} height={150} />
       </Link>
       <nav className="header-links font-semibold text-base lg:text-lg">
         <ul className="flex items-center ml-4 xl:ml-8 mr-auto">
