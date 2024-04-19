@@ -8,8 +8,8 @@ const mission = () => {
         {/* Hero section */}
         <div className="relative bg-white">
           <Image
-          width="2000"
-          height="500"
+            width="2000"
+            height="500"
             className="w-full object-cover h-96"
             src="https://cdn.shopify.com/s/files/1/1404/8810/files/shutterstock_162976271-min.jpg?15124296873298194252"
             alt="Courier Service"
@@ -69,23 +69,23 @@ const mission = () => {
             What Our Customers Say
           </h2>
           <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-10 px-5 md:px-20">
-            <div className="text-gray-800  shadow-lg rounded p-3">
+            <div className="text-gray-800 shadow-lg rounded p-3">
               <p className="text-lg">
-                "The fastest service I've ever used. Got my package the same
-                day!"
+                The fastest service I&apos;ve ever used. Got my package the same
+                day!
               </p>
               <strong className="block mt-4">- Jane Doe</strong>
             </div>
-            <div className="text-gray-800  shadow-lg rounded p-3">
+            <div className="text-gray-800 shadow-lg rounded p-3">
               <p className="text-lg">
-                "Excellent international shipping options. It's never been
-                easier."
+                Excellent international shipping options. It&apos;s never been
+                easier.
               </p>
               <strong className="block mt-4">- John Smith</strong>
             </div>
             <div className="text-gray-800 shadow-lg rounded p-3">
               <p className="text-lg">
-                "Their tracking system is a game-changer. Total peace of mind."
+                Their tracking system is a game-changer. Total peace of mind.
               </p>
               <strong className="block mt-4">- Emily Johnson</strong>
             </div>
