@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    experimental: {
+        appDir: true,
+    },
     images: {
         remotePatterns: [
           {
@@ -24,9 +27,24 @@ const nextConfig = {
           },
           {
             protocol: 'https',
+            hostname:'lovable-renewal-dc58b84f33.media.strapiapp.com',
+            port: '',
+          },
+          {
+            protocol: 'https',
             hostname:'cdn.shopify.com',
             port: '',
           },
+          {
+            protocol: 'http',
+            hostname: 'localhost',
+            port: '1337',
+            pathname: '/uploads/**',
+          },
+          {
+            protocol: 'https',
+            hostname: 'images.pexels.com',
+          }
           
         ],
       },
