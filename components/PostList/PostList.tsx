@@ -4,6 +4,7 @@
 import Image from "next/image";
     import Link from "next/link";
     
+    
     export interface Article {
       id: 4;
       attributes: {
