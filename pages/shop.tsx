@@ -10,6 +10,7 @@ const shop = () => {
       ];
       return (<><ImageSlider images={images} />
       <Products />
+      
 
       </>);
 }
