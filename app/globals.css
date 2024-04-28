@@ -57,7 +57,7 @@ body {
 }
 .active:hover,
 .active {
-  color: #fcae04;
+  color: rgb(167 139 250);
 }
 
 @media (min-width: 768px) {
@@ -73,7 +73,7 @@ body {
   transition-timing-function: ease;
 }
 .nav-link:hover {
-  color: #fcae04;
+  color: rgb(167 139 250);
   transition-duration: 0.4s;
   transition-timing-function: ease;
 }
@@ -90,11 +90,11 @@ body {
 }
 
 .active .nav-link::before {
-  background-color: #fcae04;
+  background-color: rgb(167 139 250);
 }
 
 .nav-link:hover::before {
-  background-color: #fcae04;
+  background-color: rgb(167 139 250);
 }
 
 .social-icon {
