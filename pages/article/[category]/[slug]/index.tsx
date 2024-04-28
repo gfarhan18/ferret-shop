@@ -1,6 +1,5 @@
 import { fetchAPI } from '@/app/utils/fetch-api';
 import { GetServerSideProps, InferGetServerSidePropsType } from 'next';
-import PageHeader from '@/components/PageHeader/PageHeader';
 import Post, { Article } from '@/components/Post/Post';
 
 
