@@ -26,7 +26,7 @@ const Header = () => {
       <nav className="header-links font-semibold text-base lg:text-lg">
         <ul className="flex items-center ml-4 xl:ml-8 mr-auto">
           {menuItems.map((item) => (
-            <li key={item.name} className={`p-3 xl:p-6 ${activeMenu === item.name ? 'active' : ''}`}
+            <li key={item.name} className={`p-3 xl:p-6 transition duration-400 ease  ${activeMenu === item.name ? 'active' : ''}`}
                 onClick={() => setActiveMenu(item.name)}>
               <Link href={item.href}>
                   <span className="nav-link">{item.name} </span>

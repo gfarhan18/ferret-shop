@@ -69,9 +69,13 @@ body {
 .nav-link {
   position: relative;
   z-index: 0;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
 }
 .nav-link:hover {
   color: #fcae04;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
 }
 
 .nav-link::before {
