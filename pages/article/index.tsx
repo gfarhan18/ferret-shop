@@ -1,5 +1,5 @@
 "use client";
-import { fetchAPI } from "@/pages/[lang]/utils/fetch-api";
+import { fetchAPI } from "@/app/utils/fetch-api";
 import Loader from "@/components/Loader/Loader";
 import PageHeader from "@/components/PageHeader/PageHeader";
 import PostList from "@/components/PostList/PostList";

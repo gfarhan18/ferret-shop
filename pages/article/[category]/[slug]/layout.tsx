@@ -1,6 +1,6 @@
 import React from "react";
     
-import { fetchAPI } from "@/pages/[lang]/utils/fetch-api";
+import { fetchAPI } from "@/app/utils/fetch-api";
 import ArticleSelect from "@/components/shared/ArticleSelect";
 
 async function fetchSideMenuData(filter: string) {

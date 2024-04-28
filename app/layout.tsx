@@ -2,8 +2,8 @@
     
     import type { Metadata } from "next";
     import "./globals.css";
-import { fetchAPI } from "../pages/[lang]/utils/fetch-api";
-import { getStrapiMedia, getStrapiURL } from "../pages/[lang]/utils/api-helpers";
+import { fetchAPI } from "./utils/fetch-api";
+import { getStrapiMedia, getStrapiURL } from "./utils/api-helpers";
 import { i18n } from "@/i18n-config";
     
     const FALLBACK_SEO = {

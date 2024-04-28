@@ -1,6 +1,6 @@
 // ./frontend/src/app/[lang]/components/PostList.tsx
 
-import { formatDate, getStrapiMedia } from "@/pages/[lang]/utils/api-helpers";
+import { formatDate, getStrapiMedia } from "@/app/utils/api-helpers";
 import Image from "next/image";
 import Link from "next/link";
 

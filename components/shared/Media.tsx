@@ -1,4 +1,4 @@
-import { getStrapiMedia } from "@/pages/[lang]/utils/api-helpers";
+import { getStrapiMedia } from "@/app/utils/api-helpers";
 import Image from "next/image";
 
 interface MediaProps {
