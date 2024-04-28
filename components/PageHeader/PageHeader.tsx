@@ -7,6 +7,8 @@
       text?: string,
     }
     
+
+    
     export default function PageHeader({ heading, text } : PageHeaderProps) {
       return (
         <div className="my-16 w-full text-center">
