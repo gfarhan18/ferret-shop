@@ -1,10 +1,10 @@
     // ./frontend/src/app/[lang]/components/PostList.tsx
     
-    import { formatDate, getStrapiMedia } from "@/app/[lang]/utils/api-helpers";
+    import { formatDate, getStrapiMedia } from "@/pages/[lang]/utils/api-helpers";
 import Image from "next/image";
     import Link from "next/link";
     
-    interface Article {
+    export interface Article {
       id: 4;
       attributes: {
         title: string;
@@ -69,7 +69,7 @@ import Image from "next/image";
     
               return (
                 <Link
-                  href={`${category?.slug}/${article.attributes.slug}`}
+                  href={`/article/${category?.slug}/${article.attributes.slug}`}
                   key={article.id}
                   className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-900 lg:w-[300px] xl:min-w-[375px] rounded-2xl overflow-hidden shadow-lg"
                 >

@@ -3,7 +3,7 @@ import { ReactNode, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { FaTwitter, FaFacebookF, FaLinkedinIn, FaInstagram, FaChevronDown, FaSearch } from 'react-icons/fa';
-import './styles.css'; // Import your styles here
+
 
 const Header = () => {
   const [activeMenu, setActiveMenu] = useState('Home');
