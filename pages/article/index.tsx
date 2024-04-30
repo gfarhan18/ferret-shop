@@ -3,6 +3,7 @@ import { fetchAPI } from "@/app/utils/fetch-api";
 import Loader from "@/components/Loader/Loader";
 import PageHeader from "@/components/PageHeader/PageHeader";
 import PostList from "@/components/PostList/PostList";
+import Button from "@/components/shared/Button";
 import { useState, useEffect, useCallback } from "react";
 
 interface Meta {
@@ -72,13 +73,12 @@ export default function Profile() {
         {meta!.pagination.start + meta!.pagination.limit <
           meta!.pagination.total && (
             <div className="flex justify-center">
-              <button
-                type="button"
-                className="px-6 py-3 text-sm rounded-lg hover:underline dark:bg-gray-900 dark:text-gray-400"
+              <Button
+                variant="primary"
                 onClick={loadMorePosts}
               >
                 Load more posts...
-              </button>
+              </Button>
             </div>
           )}
       </PostList>

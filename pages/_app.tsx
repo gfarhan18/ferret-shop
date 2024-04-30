@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Header />
-      <main>
+      <main className='min-h-[70vh]'>
         <Component {...pageProps} />
       </main>
       <Footer />
