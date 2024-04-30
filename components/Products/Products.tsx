@@ -66,9 +66,12 @@ const Products = () => {
           <ProductCard key={product.id} product={product} />
         ))}
       </div>
+      <div className="flex justify-center">
+
       <Button variant="primary" href="/shop" className="mt-8">
         View More Products
       </Button>
+      </div>
     </section>
   );
 };

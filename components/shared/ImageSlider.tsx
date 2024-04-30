@@ -19,7 +19,7 @@ const ImageSlider: FunctionComponent<ImageSliderProps> = ({ images }) => {
   }, [slideCount]);
 
   return (
-    <div className="w-full h-screen flex items-center justify-center overflow-hidden">
+    <div className="w-full h-[50vh] flex items-center justify-center overflow-hidden">
       <div className="max-w-full">
         <div className="overflow-hidden relative">
           <div
